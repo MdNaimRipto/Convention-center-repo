@@ -96,17 +96,32 @@
     <!-- Carousel section Ending -->
 
     <!-- Memory section starting -->
-    <section class="container">
-        <div class="row">
+    <section class="container mb-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
             <div class="col">
-                <img src="images/other/wedding.png" alt="">
+                <img class="img-fluid" src="images/other/wedding.png" alt="">
             </div>
-            <div class="col">
-                <h1>Every moment is Precious</h1>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor
+            <div class="col my-auto">
+                <h1 class="fw-bolder mb-3">Every moment is Precious</h1>
+                <div class="d-block position-absolute justify-content-end end-0">
+                    <div class="w-100 float-end border-start border-top-0 border-bottom-0 border-end-0 border-5 border-primary toast show"
+                        role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <img src="images/icons/Vector.svg" class="rounded me-2" alt="...">
+                            <strong class="me-auto">20% off on next booking</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                    </div>
+                </div>
+                <p class="fw-bold mb-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor
                     do amet sint. Velit officia consequat duis enim velit mollit.
                     Exercitation veniam consequat sunt nostrud amet.</p>
-                <button>Explore our album</button>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Explore our album <img
+                        src="images/icons/arrow-forward 1.svg" alt="">
+                </button>
+
+
+
             </div>
         </div>
     </section>
