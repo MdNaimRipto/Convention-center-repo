@@ -1,0 +1,63 @@
+.hidden-button {
+    display: none;
+}
+
+.memory-button {
+    display: block;
+}
+
+.price-box {
+    width: 100%;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+@media screen and (max-width:576px) {
+    .carousel-img {
+        height: 240px;
+    }
+
+    .carousel-info {
+        width: 270px !important;
+    }
+
+    .carousel-info h2 {
+        font-size: 20px !important;
+    }
+
+    .carousel-info p {
+        font-size: 10px;
+    }
+
+    .memory-box {
+        flex-direction: column-reverse;
+    }
+
+    .hidden-button {
+        display: block;
+    }
+
+    .memory-button {
+        display: none;
+    }
+
+    .memory-heading {
+        text-align: center;
+    }
+
+    .memory-paragraph {
+        text-align: center;
+    }
+
+    .price-box {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .price-box {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
