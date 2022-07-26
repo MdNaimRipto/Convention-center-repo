@@ -12,6 +12,11 @@
     margin: auto;
 }
 
+.hot-deal {
+    top: -53px;
+    left: 195px;
+}
+
 @media screen and (max-width:576px) {
     .carousel-img {
         height: 240px;
@@ -53,11 +58,21 @@
         flex-wrap: wrap;
         gap: 20px;
     }
+
+    .hot-deal {
+        top: -53px;
+        left: 215px;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
     .price-box {
         flex-wrap: wrap;
         gap: 20px;
+    }
+
+    .hot-deal {
+        top: -53px;
+        left: 215px;
     }
 }
