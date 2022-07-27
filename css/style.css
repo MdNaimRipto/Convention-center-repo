@@ -13,8 +13,8 @@
 }
 
 .hot-deal {
-    top: -53px;
-    left: 195px;
+    top: 0;
+    right: 0;
 }
 
 @media screen and (max-width:576px) {
@@ -59,10 +59,10 @@
         gap: 20px;
     }
 
-    .hot-deal {
+    /* .hot-deal {
         top: -53px;
         left: 215px;
-    }
+    } */
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -71,8 +71,8 @@
         gap: 20px;
     }
 
-    .hot-deal {
+    /* .hot-deal {
         top: -53px;
         left: 215px;
-    }
+    } */
 }
