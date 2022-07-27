@@ -58,11 +58,6 @@
         flex-wrap: wrap;
         gap: 20px;
     }
-
-    /* .hot-deal {
-        top: -53px;
-        left: 215px;
-    } */
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -70,9 +65,4 @@
         flex-wrap: wrap;
         gap: 20px;
     }
-
-    /* .hot-deal {
-        top: -53px;
-        left: 215px;
-    } */
 }
